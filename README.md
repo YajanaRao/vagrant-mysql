@@ -28,3 +28,7 @@ vagrant destroy
 ```shell
 vagrant suspend
 ```
+
+REFERENCES
+
+https://www.yourtechy.com/technology/mysql-server-vagrant-virtualbox/
