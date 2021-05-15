@@ -31,4 +31,6 @@ vagrant suspend
 
 REFERENCES
 
-https://www.yourtechy.com/technology/mysql-server-vagrant-virtualbox/
+- https://www.yourtechy.com/technology/mysql-server-vagrant-virtualbox/
+
+- https://dev.mysql.com/doc/mysql-getting-started/en/
