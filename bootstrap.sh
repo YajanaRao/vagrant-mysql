@@ -21,4 +21,4 @@ sudo sed -i -e 's/skip-external-locking/#skip-external-locking/g' /etc/mysql/mys
 mysql -u root -proot -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root'; FLUSH privileges;"
 sudo service mysql restart
 # create client database
-mysql -u root -proot -e "CREATE DATABASE myDB;"
+mysql -u root -proot -e "CREATE DATABASE appdb;"
