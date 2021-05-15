@@ -17,3 +17,14 @@ vagrant up
 
 4. run `vagrant ssh`
 5. connect to mysql using `mysql -u root`
+
+6. To stop the virtual machine from running, enter:
+
+```shell
+vagrant destroy
+```
+
+- To stop the machine and save its current state run:
+```shell
+vagrant suspend
+```
