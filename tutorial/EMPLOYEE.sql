@@ -25,3 +25,9 @@ select emp_name, hire_date from employee;
 select emp_name from employee WHERE hire_date > DATE("1908-12-17 07:30:20");
 
 select hire_date from employee WHERE emp_name='Smith';
+
+select emp_name from employee where deposit_no != 10 and deposit_no != 20;
+
+select emp_name from employee where deposit_no not in (10,20);
+
+select emp_name from employee where job not in ('manager') and salary > 1500;
