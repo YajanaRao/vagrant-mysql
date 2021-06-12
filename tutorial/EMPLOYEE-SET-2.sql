@@ -25,3 +25,12 @@ select emp_name from employee where not job="developer" and (dept_no=10 or dept_
 select emp_name from employee where job not in ('manager') and salary > 1500;
 
 SELECT emp_name FROM employee WHERE dept_no IN (10, 20) and salary IN (1000, 3000) and job NOT IN ("manager");
+
+# LIKE OPERATOR
+
+select * from employee WHERE emp_name LIKE 'a%' or emp_name LIKE 's%';
+
+select * from employee WHERE emp_name NOT LIKE 's%';
+
+select * from employee WHERE emp_name LIKE '%S%';
+
